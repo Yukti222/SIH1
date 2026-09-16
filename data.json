@@ -1,0 +1,38 @@
+{
+  "qualifications": [
+    {
+      "qualification_id": "Q_001",
+      "nsqf_level": "Level 3",
+      "sector": "Apparel",
+      "title": {
+        "en": "Basic Tailoring",
+        "hi": "बेसिक सिलाई",
+        "mr": "मूल शिलाई"
+      },
+      "local_aliases": ["darzi", "silai", "kapde seena", "stitching"]
+    },
+    {
+      "qualification_id": "Q_002",
+      "nsqf_level": "Level 4",
+      "sector": "Automotive",
+      "title": {
+        "en": "Two Wheeler Service Technician",
+        "hi": "टू व्हीलर सर्विस टेक्निशियन",
+        "mr": "दुचाकी सेवा तंत्रज्ञ"
+      },
+      "local_aliases": ["mechanic", "bike repairing", "gaadi theek karna"]
+    }
+  ],
+  "jobs": [
+    {
+      "job_id": "J_001",
+      "required_qualification": "Q_001",
+      "type": "Wage Employment",
+      "job_title": {
+        "en": "Garment Stitcher",
+        "hi": "कपड़ा सिलाई कर्मचारी",
+        "mr": "कपडे शिवणारा"
+      }
+    }
+  ]
+}
