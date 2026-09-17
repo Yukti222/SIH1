@@ -52,19 +52,16 @@ app.post('/api/process-audio', async (req, res) => {
     }
 });
 
-
-// 2. MATCHMAKING / RECOMMENDATION API (Smart Multi-keyword Match)
+// 2. MATCHMAKING / RECOMMENDATION API
 app.post('/api/get-recommendation', async (req, res) => {
     try {
         const { profile } = req.body; 
         if (!profile) return res.status(400).json({ error: "Profile data nahi mila" });
 
-        console.log("Database me jobs aur courses dhoondh rahe hain... 🔍");
+        console.log("⚡ HIT /get-recommendation | Skills:", profile.skills);
 
-        // Split user skills by comma and trim for smart multi-keyword check
         const userSkills = (profile.skills || "").toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
 
-        // Firebase se saari Jobs aur Courses nikalna
         const jobsSnapshot = await getDocs(collection(db, "jobs"));
         let matchedJobs = [];
         jobsSnapshot.forEach(doc => {
@@ -78,7 +75,6 @@ app.post('/api/get-recommendation', async (req, res) => {
             }
         });
 
-        // Match hue courses nikalna
         const coursesSnapshot = await getDocs(collection(db, "qualifications"));
         let matchedCourses = [];
         coursesSnapshot.forEach(doc => {
@@ -107,7 +103,6 @@ app.post('/api/get-recommendation', async (req, res) => {
     }
 });
 
-// Server start
 app.listen(5000, () => {
     console.log('🚀 SIH Backend Server chalu ho gaya hai: http://localhost:5000');
 });
