@@ -69,6 +69,27 @@
       "required_skill": "mandi trading, price discovery, crop selling, agricultural commodity",
       "target_beneficiary": "Farmers, traders, FPOs, APMCs",
       "support": "Online trading, quality/price discovery, lot tracking"
+    },
+    {
+      "id": "pmajay_01",
+      "job_title": { "en": "PM-AJAY - Skill Development & Income Generation (SC)" },
+      "required_skill": "sc community, skill development, income generation, artisan, livelihood",
+      "target_beneficiary": "Scheduled Caste (SC) individuals and households",
+      "support": "Grants-in-aid for skill development, income-generating schemes, and livelihood assets"
+    },
+    {
+      "id": "pmajay_02",
+      "job_title": { "en": "PM-AJAY - Adarsh Gram Component (Village Development)" },
+      "required_skill": "village development, sanitation, SC majority village, infrastructure",
+      "target_beneficiary": "SC majority villages (Adarsh Gram)",
+      "support": "Gap-filling funds for socio-economic infrastructure and income-generating baseline"
+    },
+    {
+      "id": "pmajay_03",
+      "job_title": { "en": "PM-AJAY - Hostel Construction (SC Students)" },
+      "required_skill": "student accommodation, education support, hostel management",
+      "target_beneficiary": "SC students pursuing higher/secondary education",
+      "support": "Financial assistance for construction and maintenance of hostels"
     }
   ],
   "qualifications": [
