@@ -1,29 +1,37 @@
 import { db } from './firebase.js';
-import { collection, addDoc } from 'firebase/firestore';
+import { collection, addDoc, getDocs, deleteDoc, doc } from 'firebase/firestore';
 import fs from 'fs';
 
-// JSON file padhna
 const data = JSON.parse(fs.readFileSync('./data.json', 'utf-8'));
 
+async function clearCollection(collectionName) {
+    const querySnapshot = await getDocs(collection(db, collectionName));
+    for (let document of querySnapshot.docs) {
+        await deleteDoc(doc(db, collectionName, document.id));
+    }
+    console.log(`🗑️ Purana '${collectionName}' collection saaf kar diya!`);
+}
+
 async function uploadData() {
-    console.log("Firebase me naya data bhejna shuru... 🚀");
+    console.log("Firebase refresh karna shuru... 🚀");
     try {
-        // Jobs upload kar rahe hain
+        await clearCollection("jobs");
+        await clearCollection("qualifications");
+
         for (let job of data.jobs) {
             await addDoc(collection(db, "jobs"), job);
         }
-        console.log("✅ Saari Jobs upload ho gayi!");
+        console.log("✅ Saari Jobs/Schemes (including PM-AJAY) upload ho gayi!");
 
-        // Courses/Qualifications upload kar rahe hain
         if (data.qualifications) {
             for (let course of data.qualifications) {
                 await addDoc(collection(db, "qualifications"), course);
             }
-            console.log("✅ Saare Courses bhi upload ho gaye!");
+            console.log("✅ Saare Courses upload ho gaye!");
         }
         
-        console.log("🎉 SUCCESS! Ab apna Recommendation test karo.");
-        process.exit(); // Script ko theek se band karne ke liye
+        console.log("🎉 SUCCESS! Pura data update ho chuka hai.");
+        process.exit();
     } catch (e) {
         console.error("Backend Error:", e);
         process.exit(1);
