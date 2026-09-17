@@ -10,7 +10,7 @@
     {
       "id": "scheme_02",
       "job_title": { "en": "PMFME - Micro Food Processing Unit" },
-      "required_skill": "food processing, pickle, papad, bakery",
+      "required_skill": "food processing, pickle, papad, bakery, sorting, grading",
       "target_beneficiary": "Micro food-processing entrepreneurs",
       "support": "35% credit-linked capital subsidy, maximum Rs 10 lakh per unit"
     },
@@ -20,6 +20,55 @@
       "required_skill": "data entry, basic computer, typing",
       "target_beneficiary": "Rural youth 15-35 with basic digital skills",
       "support": "Placement-oriented skill jobs"
+    },
+    {
+      "id": "scheme_04",
+      "job_title": { "en": "DAY-NRLM - Sustainable Farm/Non-Farm Livelihoods & SHG Support" },
+      "required_skill": "SHG, community enterprise, value-chain, rural livelihood",
+      "target_beneficiary": "Rural poor households / SHGs and federations",
+      "support": "Skill-based farm/non-farm livelihoods, entrepreneurship, market support"
+    },
+    {
+      "id": "scheme_05",
+      "job_title": { "en": "SVEP (under DAY-NRLM) - Early-Stage Rural Enterprise" },
+      "required_skill": "enterprise idea, rural business, shop, local trade",
+      "target_beneficiary": "Rural enterprise seekers and SHG ecosystem",
+      "support": "Enterprise promotion/support with IT-based workflow, mentor/community support, finance"
+    },
+    {
+      "id": "scheme_06",
+      "job_title": { "en": "DDU-GKY - Placement-Oriented Skill Training" },
+      "required_skill": "youth, entry-level, training, placement",
+      "target_beneficiary": "Rural youth 15-35 from poor families",
+      "support": "Skill training with assessment, certification, and placement tracking"
+    },
+    {
+      "id": "scheme_07",
+      "job_title": { "en": "AIF (Agriculture Infrastructure Fund) - Post-Harvest Assets" },
+      "required_skill": "warehouse, cold storage, grading unit, sorting, FPO management",
+      "target_beneficiary": "PACS, FPO, SHG, farmers, agri-entrepreneurs",
+      "support": "Debt financing + 3% interest subvention up to Rs 2 crore + credit guarantee"
+    },
+    {
+      "id": "scheme_08",
+      "job_title": { "en": "PM-KUSUM - Solar Pump & Farm Energy Solarisation" },
+      "required_skill": "solar pump, drip irrigation, sprinkler, farm energy",
+      "target_beneficiary": "Farmers, groups, WUAs, coops, panchayats, FPOs, PACS",
+      "support": "Solar pumps, pump solarisation, decentralized solar generation up to 2 MW"
+    },
+    {
+      "id": "scheme_09",
+      "job_title": { "en": "PMKSY - Integrated Cold Chain & Value Addition" },
+      "required_skill": "cold chain, food transport, irradiation, processing centre",
+      "target_beneficiary": "Individuals, companies, partnerships, FPOs, coops, SHGs",
+      "support": "35%/50% eligible project cost subject to max Rs 10 crore"
+    },
+    {
+      "id": "scheme_10",
+      "job_title": { "en": "e-NAM - Electronic Agricultural Market Linkage" },
+      "required_skill": "mandi trading, price discovery, crop selling, agricultural commodity",
+      "target_beneficiary": "Farmers, traders, FPOs, APMCs",
+      "support": "Online trading, quality/price discovery, lot tracking"
     }
   ],
   "qualifications": [
@@ -29,7 +78,7 @@
       "title": { "en": "PM Vishwakarma - Tailor (Darzi)" },
       "level": "2.5",
       "hours": "40",
-      "eligibility": "No Experience required",
+      "eligibility": "No Experience / Scheme-linked criteria",
       "sector": "Apparel"
     },
     {
@@ -49,6 +98,87 @@
       "hours": "270",
       "eligibility": "10th completed / no experience",
       "sector": "Agriculture"
+    },
+    {
+      "id": "course_04",
+      "nqr_id": "12656",
+      "title": { "en": "Multi-skill Technician (Food Processing)" },
+      "level": "4",
+      "hours": "870",
+      "eligibility": "12th no experience / 2nd yr diploma / 10th+3y",
+      "sector": "Food Industry"
+    },
+    {
+      "id": "course_05",
+      "nqr_id": "14904",
+      "title": { "en": "Fundamentals of Baking" },
+      "level": "4",
+      "hours": "60",
+      "eligibility": "12th no experience / 10th+3y",
+      "sector": "Food Industry"
+    },
+    {
+      "id": "course_06",
+      "nqr_id": "12209",
+      "title": { "en": "Bread & Bakery Qualification" },
+      "level": "3",
+      "hours": "300",
+      "eligibility": "Verify current QF for exact rule set",
+      "sector": "Food Industry"
+    },
+    {
+      "id": "course_07",
+      "nqr_id": "10754",
+      "title": { "en": "Micro-Irrigation Field Assistant" },
+      "level": "2",
+      "hours": "210",
+      "eligibility": "No formal education; no experience",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "course_08",
+      "nqr_id": "9936",
+      "title": { "en": "Service Assistant (Agriculture Machineries)" },
+      "level": "3",
+      "hours": "600",
+      "eligibility": "10th completed / no experience",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "course_09",
+      "nqr_id": "9937",
+      "title": { "en": "Vermi-Composter" },
+      "level": "3",
+      "hours": "360",
+      "eligibility": "10th / no experience",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "course_10",
+      "nqr_id": "9301",
+      "title": { "en": "PM Vishwakarma - Potter (Kumhar) / Terracotta Maker" },
+      "level": "2.5",
+      "hours": "40",
+      "eligibility": "No Experience / Scheme verification",
+      "sector": "Handicrafts & Carpets"
+    },
+    {
+      "id": "course_11",
+      "nqr_id": "9274",
+      "title": { "en": "PM Vishwakarma - Blacksmith (Lohar)" },
+      "level": "2.5",
+      "hours": "40",
+      "eligibility": "No Experience",
+      "sector": "Capital Goods & Manufacturing"
+    },
+    {
+      "id": "course_12",
+      "nqr_id": "9287",
+      "title": { "en": "PM Vishwakarma - Plaster Mason (Basic)" },
+      "level": "2.5",
+      "hours": "40",
+      "eligibility": "Existing Vishwakarma duly verified as per scheme",
+      "sector": "Construction"
     }
   ]
 }
