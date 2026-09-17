@@ -1,38 +1,54 @@
 {
-  "qualifications": [
-    {
-      "qualification_id": "Q_001",
-      "nsqf_level": "Level 3",
-      "sector": "Apparel",
-      "title": {
-        "en": "Basic Tailoring",
-        "hi": "बेसिक सिलाई",
-        "mr": "मूल शिलाई"
-      },
-      "local_aliases": ["darzi", "silai", "kapde seena", "stitching"]
-    },
-    {
-      "qualification_id": "Q_002",
-      "nsqf_level": "Level 4",
-      "sector": "Automotive",
-      "title": {
-        "en": "Two Wheeler Service Technician",
-        "hi": "टू व्हीलर सर्विस टेक्निशियन",
-        "mr": "दुचाकी सेवा तंत्रज्ञ"
-      },
-      "local_aliases": ["mechanic", "bike repairing", "gaadi theek karna"]
-    }
-  ],
   "jobs": [
     {
-      "job_id": "J_001",
-      "required_qualification": "Q_001",
-      "type": "Wage Employment",
-      "job_title": {
-        "en": "Garment Stitcher",
-        "hi": "कपड़ा सिलाई कर्मचारी",
-        "mr": "कपडे शिवणारा"
-      }
+      "id": "scheme_01",
+      "job_title": { "en": "PMEGP - Self Employment / New Enterprise" },
+      "required_skill": "self-employment, non-farm, micro-enterprise, silai, tailor, business",
+      "target_beneficiary": "New entrepreneurs in non-farm micro-enterprises",
+      "support": "Government margin money subsidy routed through banks; project finance"
+    },
+    {
+      "id": "scheme_02",
+      "job_title": { "en": "PMFME - Micro Food Processing Unit" },
+      "required_skill": "food processing, pickle, papad, bakery",
+      "target_beneficiary": "Micro food-processing entrepreneurs",
+      "support": "35% credit-linked capital subsidy, maximum Rs 10 lakh per unit"
+    },
+    {
+      "id": "scheme_03",
+      "job_title": { "en": "Data Entry Operator / IT Support (Local E-Mitra)" },
+      "required_skill": "data entry, basic computer, typing",
+      "target_beneficiary": "Rural youth 15-35 with basic digital skills",
+      "support": "Placement-oriented skill jobs"
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "course_01",
+      "nqr_id": "9264",
+      "title": { "en": "PM Vishwakarma - Tailor (Darzi)" },
+      "level": "2.5",
+      "hours": "40",
+      "eligibility": "No Experience required",
+      "sector": "Apparel"
+    },
+    {
+      "id": "course_02",
+      "nqr_id": "12602",
+      "title": { "en": "Basics of Papad, Pickles and Masala Powder Making" },
+      "level": "2",
+      "hours": "150",
+      "eligibility": "Ability to read/write; no experience",
+      "sector": "Food Industry"
+    },
+    {
+      "id": "course_03",
+      "nqr_id": "14080",
+      "title": { "en": "Paddy Cultivator" },
+      "level": "3",
+      "hours": "270",
+      "eligibility": "10th completed / no experience",
+      "sector": "Agriculture"
     }
   ]
 }
