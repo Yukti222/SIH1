@@ -79,17 +79,24 @@
     },
     {
       "id": "pmajay_02",
-      "job_title": { "en": "PM-AJAY - Adarsh Gram Component (Village Development)" },
-      "required_skill": "village development, sanitation, SC majority village, infrastructure",
-      "target_beneficiary": "SC majority villages (Adarsh Gram)",
-      "support": "Gap-filling funds for socio-economic infrastructure and income-generating baseline"
+      "job_title": { "en": "PM-AJAY - GIA Income Generation Micro-Project Support" },
+      "required_skill": "sc community, micro enterprise, income generation, self help grant",
+      "target_beneficiary": "SC micro-entrepreneurs and SHG members",
+      "support": "Grants-in-aid for income-generating micro-projects and equipment support"
     },
     {
       "id": "pmajay_03",
-      "job_title": { "en": "PM-AJAY - Hostel Construction (SC Students)" },
-      "required_skill": "student accommodation, education support, hostel management",
-      "target_beneficiary": "SC students pursuing higher/secondary education",
-      "support": "Financial assistance for construction and maintenance of hostels"
+      "job_title": { "en": "PM-AJAY - GIA Livelihood Enhancement & Common Facility" },
+      "required_skill": "sc community, common facility center, artisan cluster, value addition",
+      "target_beneficiary": "SC artisan clusters and producer groups",
+      "support": "Grants-in-aid for common work sheds, tools, and tech-driven market access"
+    },
+    {
+      "id": "pmajay_04",
+      "job_title": { "en": "PM-AJAY - GIA Economic Development & District Project" },
+      "required_skill": "sc community, district project, economic development, poverty reduction",
+      "target_beneficiary": "SC population in high-gap blocks/districts",
+      "support": "Grants-in-aid for composite district economic development and asset creation"
     }
   ],
   "qualifications": [
@@ -195,7 +202,7 @@
     {
       "id": "course_12",
       "nqr_id": "9287",
-      "title": { "en": "PM Vishwakarma - Plaster Mason (Basic)" },
+      "title": { "en": "PM Vishwakarmma - Plaster Mason (Basic)" },
       "level": "2.5",
       "hours": "40",
       "eligibility": "Existing Vishwakarma duly verified as per scheme",
